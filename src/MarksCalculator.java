@@ -7,13 +7,6 @@ public class MarksCalculator {
         Scanner sc = new Scanner(System.in);
         System.out.println(sc.hasNextInt());
 
-        System.out.print("Please Enter A Number :- ");
-        Scanner sc = new Scanner(System.in);
-        System.out.println(sc.hasNextInt());
-        System.out.print("Please Enter A Number :- ");
-        Scanner sc = new Scanner(System.in);
-        System.out.println(sc.hasNextInt());
-
 //        System.out.println("This is A Student's Percentage Program");
 //        System.out.println("Enter the marks of First Subject ");
 //        Scanner sc = new Scanner(System.in);
