@@ -7,7 +7,7 @@ public class Strings1 {
         float a = sc.nextFloat();
         float tax = 0;
         if (a<=250000){
-            System.out.println("No TAX!");
+            System.out.println("No TAX");
         }
         else if(a>250000 && a<=500000){
             System.out.println("You have to Pay 5% TAX");
