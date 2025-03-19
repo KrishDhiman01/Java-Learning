@@ -3,17 +3,18 @@ import java.util.Scanner;
 public class Strings1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Please Enter a Year :- ");
-        int a = sc.nextInt();
-        int b = (a%4);
-        if (a == 1900){
-            System.out.println("This is Not A leap Year!");
+        String a = sc.next();
+        if(a.endsWith(".org")){
+            System.out.println("This is a organization website");
         }
-        else if (b==0){
-            System.out.println("This is a Leap Year!!");
+        else if(a.endsWith(".com")){
+            System.out.println("This is a Commerical website");
+        }
+        else if(a.endsWith(".in")){
+            System.out.println("This is a Indian website");
         }
         else{
-            System.out.println("This is Not a Leap Year!");
+            System.out.println("Please Enter the right domain");
         }
 
 
@@ -23,8 +24,19 @@ public class Strings1 {
 
 
 
-
-
+//        Scanner sc = new Scanner(System.in);
+//        System.out.print("Please Enter a Year :- ");
+//        int a = sc.nextInt();
+//        int b = (a%4);
+//        if (a == 1900){
+//            System.out.println("This is Not A leap Year!");
+//        }
+//        else if (b==0){
+//            System.out.println("This is a Leap Year!!");
+//        }
+//        else{
+//            System.out.println("This is Not a Leap Year!");
+//        }
 //        Scanner sc = new Scanner(System.in);
 //        System.out.print("Please Enter Your Income :- ");
 //        float a = sc.nextFloat();
