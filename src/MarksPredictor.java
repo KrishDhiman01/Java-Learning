@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import javax.swing.*;
 
 public class MarksPredictor {
     public static void main(String[] args) {
@@ -84,5 +85,6 @@ public class MarksPredictor {
             System.out.println("You need " + tot10 + " Marks To Get 10 CGPA");
         }
         System.out.println("Thanks To Use This :) ");
+
     }
 }
