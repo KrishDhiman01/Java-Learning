@@ -1,35 +1,21 @@
 class one{
-    int x;
-
-    public int getX() {
-            return x;
+        one(){
+             System.out.println("I am One");
         }
-    public void setX(int x){
-            System.out.println("One");
-            this.x = x;
-        }
-    public void printMe(){
-            System.out.println("Class One");
+        one(int x){
+            System.out.println("I am One with int x" + x);
         }
     }
 class Two extends one{
-        int y;
-        public int getY(){
-            return y;
+        Two(){
+            System.out.println("I Am Two");
         }
-        public void setY(int y){
-            this.y = y;
+        Two(int y){
+            System.out.println("I am Two with Int y" + y);
         }
     }
     public class Inheritance {
     public static void main(String[] args) {
-        Two y = new Two();
-        y.setY(4);
-        System.out.println(y.getY());
-
-        one x = new one();
-        x.setX(5);
-        System.out.println(x.getX());
-
+        Two ad = new Two(2);
     }
 }
